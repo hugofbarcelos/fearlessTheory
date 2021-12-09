@@ -2,7 +2,9 @@ characters/Character.class
 characters/Penny.class
 characters/Raj.class
 characters/Sheldon.class
+controller/Test.class
 characters/Howard.class
 characters/Leonard.class
 SpringBootstrap.class
+Log4jWebConfig.class
 interceptor/LogRequestsInterceptor.class
