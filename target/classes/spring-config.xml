@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
@@ -19,4 +20,26 @@
 
 
 
+=======
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans" xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <bean class="SpringBootstrap"/>
+    <mvc:default-servlet-handler/>
+
+    <!-- User @Controller, @Service annotations -->
+    <mvc:annotation-driven/>
+
+    <!-- Base package to search for spring beans -->
+    <context:component-scan base-package="java"/>
+
+    <mvc:interceptors>
+        <bean class="interceptor.LogRequestsInterceptor"/>
+    </mvc:interceptors>
+
+    <!-- Use spring servlet for all requests, including static resources -->
+    <!-- User @Controller, @Service annotations -->
+>>>>>>> 3e7d0fecd69d2e608896cf864220488b4629987a
 </beans>
