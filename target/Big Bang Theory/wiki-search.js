@@ -20,34 +20,41 @@ window.onload = function(){
 
     console.log("before");
     
-    getWikiResultId();
+    getWikiResult();
     
     console.log("after");
 };
 
-function getWikiResultId(){
 
-    var search = "arachnophobia";
+function getWikiResult(){
+
+    var search = "Arachnophobia";
 
     const settings = {
         "async": true,
         "crossDomain": true,
-        "url": "https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=5&srsearch="+search,
+        "Content-Type": "application/json",
+        "url": "https://en.wikipedia.org/w/api.php?origin=*&action=query&prop=revisions&titles="+search+"&rvslots=*&format=json&rvprop=content&formatversion=2",
         "method": "GET"
     };
-    
+
     $.ajax(settings).done(function (text) {
         
-        console.log(text);
+        var result = text.query.pages[0].revisions[0].slots.main.content;
+
+        console.log(result);
 
         //needs work on selection (position in array may be wrong)
-        id = text.query.search[0].pageid;
+       
+        var index = result.search("==Treatment");
+
+        console.log(index);
 
         console.log(id);
 
             if(id != null){
 
-                getArticleById(id);
+    
 
             }
             else{
@@ -62,7 +69,7 @@ function getArticleById(id){
     const settings = {
         "async": true,
         "crossDomain": true,
-        "url": "https://en.wikipedia.org/?curid="+id,
+        "url": "https://en.wikipedia.org/w/api.php?action=query&pageids="+id,
         "method": "GET",
     };
     
