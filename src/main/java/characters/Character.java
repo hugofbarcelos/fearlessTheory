@@ -3,6 +3,7 @@ package characters;
 import java.util.HashMap;
 
 public class Character {
+
     protected HashMap<String, String > jokeList;
 
     public HashMap<String, String> getJokeList() {
