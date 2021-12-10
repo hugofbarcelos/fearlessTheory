@@ -15,11 +15,11 @@
 <body>
     <div class="conversation">
         <div class="user-bar">
-            
+
             <div class="name">
                 <span>Choose a fear:</span>
             </div>
-            
+
         </div>
         <div id="parentdiv" class="conversation-container">
 
@@ -32,13 +32,33 @@
                 <button type="button" class="btn btn-primary" id="fear-feelings-btn" onclick="getFear(3);">Expressing feelings</button>
                 <button type="button" class="btn btn-primary" id="fear-judged-btn" onclick="getFear(4);">Being judged</button>
             </div>
-            <div id="msg1" class="message received" style="background-color: transparent;">
-                <img src="" id="random2" alt="">
+
+            <div id="msg1" class="message received" style="background-color: transparent;  color: white;">
+                <img width="200px" src="" id="random2" alt="">
+            </div>
+
+            <br>
+            <div id="msg2" class="message received" style="background-color: #0b5ed7;  color: white;">
+                <span id="random"></span>
+                <span class="metadata"><span class="time"></span></span>
             </div>
             <br>
-            <div>
+            <div id="msg3" class="message received" style="background-color: #0b5ed7;  color: white;">
+                <div id="random1"></div>
+                <div class="metadata">
+                    <div class="time"></div>
+                </div>
+            </div>
+            <div id="msg4" class="message received" style="background-color: #0b5ed7;  color: white;">
+                <div id="random3"></div>
+                <div class="metadata">
+                    <div class="time"></div>
+                </div>
+            </div>
+            <div style="display: block;">
                 <button onclick="tryAgain();" type="button" class="btn btn-primary" id="fear-judged-try">Try new fears</button>
             </div>
+            <br>
         </div>
     </div>
 
