@@ -1,0 +1,78 @@
+body{
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+    overflow: hidden;
+}
+
+#lifes{
+    margin-left: 80em;
+}
+
+#lifes img{
+    width: 5%;
+}
+
+#asteroid{
+    width: 4%;
+}
+
+#astronaut{
+    width: 5%;
+    height: auto;
+    margin-top: 32em;
+}
+
+#asteroid-align{
+    text-align: center;
+}
+
+#align-img{
+    text-align: center;
+}
+
+#textarea-joke{
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    padding: 0;
+    height: 2em;
+    width: 40em;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0, 0, 0, .15);
+    background-color: white;
+    font-size: 1.4em;
+    text-align: center;
+}
+  
+.advancedSearchTextbox {
+    width: 526px;
+    margin-right: -4px;
+}
+
+#form{
+    display: flex;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+#choice-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5em;
+}
+
+#choice-btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+}
