@@ -16,8 +16,8 @@ var fears = [{
     },
     {
         image: "img/penny.png",
-        joke: "\"Sheldon: Why are you crying?" +
-            "Penny: Because I’m stupid." +
+        joke: "\"Sheldon: Why are you crying? " +
+            "Penny: Because I’m stupid. " +
             "Sheldon: That’s no reason to cry. One cries because one is sad. For example, I cry because others are stupid, and that makes me sad.\"",
         fear: "When we question our knowledge and skills, and feel like we don’t deserve our achievements, it’s known as imposter syndrome. Maybe you’ve started a new job and all of your coworkers seem so accomplished, unlike how you feel inside. You start to feel like a fraud and worry that your boss will realize they’ve made a huge mistake in hiring you. We feel like we don’t belong or deserve recognition for our work, even though we absolutely do. But the voice in our head keeps on insisting that we are stupid, so we start to believe it.",
         solution: "Ways To Cope With Feeling Stupid 1. Journal: Writing down how you feel can be a great way to gain some clarity and reframe the negative thoughts you’ve been having about yourself. \n 2. Reach Out For Support: Sometimes just having someone to listen to us and validate how we’re feeling makes all the difference. \n 3. Comfort Yourself Like A Friend: You can be there for yourself! Give yourself a pat on the back, write a list of the things you like about yourself, and reflect on your accomplishments. \n 4. Give Yourself A Pep Talk: Try saying some encouraging phrases to yourself out loud: I feel stupid right now but I know this feeling will pass. Everyone makes mistakes and feels stupid sometimes. I’m gonna be okay. "
@@ -30,11 +30,12 @@ var fears = [{
     },
     {
         image: "img/kisspng-johnny-galecki-the-big-bang-theory-leonard-hofstad-download-cambridge-yearbook-of-european-legal-stud-5ba47f280c8df7.5340962115375071120514.png",
-        joke: "\"Leonard: I did a bad thing." +
-            "Sheldon: Does it affect me?" +
-            "Leonard: No." +
+        joke: "\"Leonard: I did a bad thing. " +
+            "Sheldon: Does it affect me? " +
+            "Leonard: No. " +
             "Sheldon: Then suffer in silence.\"",
-        fear: "It’s a fact that at some point in our lives we are going to be judged for something. We are all open to being negatively affected by something that someone else says or does. It can be hurtful, making us feel vulnerable and paranoid about being judged again in the future. "
+        fear: "It’s a fact that at some point in our lives we are going to be judged for something. We are all open to being negatively affected by something that someone else says or does. It can be hurtful, making us feel vulnerable and paranoid about being judged again in the future. ",
+        solution: "Be aware of your inner voice.  It’s important to recognise the different parts of yourself and call that inner critic out for what it is. You have the power within you to control your thoughts and beliefs. Acknowledge your strengths and understand your limits.Be proud of your attributes, your achievements and your strengths. Accept your limitations and know that they don’t define you. Then the impact of people’s judgements will soon lessen until they no longer affect you at all. Notice your own judgements. By reducing the judgements you make, you’ll be able to care less about the judgements people may make about you. Accept that everyone is judged at some point. There will always be people who judge others. There will always be someone who judges you. Let them get on with it, knowing that it says more about them than it does about you. Prioritise your wellbeing. You are the most important thing in your life, so it’s essential that you take care of yourself. You could invest in your personal growth and wellbeing by taking up a new hobby, developing a skill or building a new one, living life in a healthy way by eating well and exercising, reading a book, journaling, or pampering yourself. If you feel bogged down with life and the fear of judgement is too strong, then don’t be afraid to seek help. Counselling and hypnotherapy could help you, and there’s no shame in admitting you need therapeutic assistance."
     }
 ]
 

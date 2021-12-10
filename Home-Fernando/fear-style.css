@@ -23,15 +23,6 @@
     font-size: 40px;
 }
 
-#fear-judged-try {
-
-    margin: 0;
-    position: absolute;
-    left: 50%;
-    transform: translate(-70%, -50%);
-
-}
-
 #box {
     display: flex;
     justify-content: space-around;
@@ -60,6 +51,32 @@
     height: 100px;
 }
 
+#footer_buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+#msg2{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+#msg3{
+    text-align: justify;
+    color: indianred;
+}
+
+#msg4{
+    text-align: justify;
+    color: olivedrab;
+}
+
+.footer{
+    width: 250px;
+    height: 70px;
+    font-size: 30px;
+}
 
 .user-bar .name {
     font-size: 20px;
@@ -83,12 +100,15 @@
 }
 
 .message.received {
-    background: #fff;
+    background: transparent;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 0px 5px 5px 5px;
     margin: 10px;
     float: left;
     margin: 10px;
 }
+
 
 
 /* Small Screens */
