@@ -1,17 +1,9 @@
 /* Meme */
 var counter = 0;
-var memes = [
-    'Dude, you smashed my turtle saying "I\'M MARIO BROS!"',
-    'Dude, you grabed seven oranges and yelled "I GOT THE DRAGON BALLS!"',
-    'Dude, you threw my hamster across the room and said "PIKACHU I CHOOSE YOU!"',
-    'Dude, you congratulated a potato for getting a part in Toy Story',
-    'Dude, you were hugging an old man with a beard screaming "DUMBLEDORE YOU\'RE ALIVE!"',
-    'Dude, you were cutting all my pinapples yelling "SPONGEBOB! I KNOW YOU\'RE THERE!"',
-];
 
 var fears = [{
         image: "kisspng-kunal-nayyar-the-big-bang-theory-raj-koothrappali-5af58127e49059.9551181415260388239362__1_.png",
-        joke: "I know the feeling. It’s like accidentally walking into a gay bar and then having no one hit on you…it happened to a friend of mine.(raj)",
+        joke: "I know the feeling. It’s like accidentally walking into a gay bar and then having no one hit on you…it happened to a friend of mine.",
         fear: "Monophobia is the fear of being isolated, lonely, or alone. As a phobia, this fear isn’t necessarily a realistic one. Though you may know that you are safe physically, you may still be afraid of strangers or intruders, being unloved, having an emergency and no help, or experiencing other unexpected events without assistance.",
         solution: "Like many other situational phobias, monophobia can be managed through psychotherapy. There are a few ways that a therapist might help you work through your fear of being alone. " +
             "Exposure therapy. This form of therapy is based on incrementally increasing the amount of time that someone is exposed to the thing or situation that they are afraid of. Exposure therapy has been scientifically and clinically demonstrated to help people overcome certain kinds of anxieties and phobias."
