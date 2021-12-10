@@ -5,22 +5,22 @@ var fears = [{
         image: "img/raj-big-bang.png",
         joke: "\"I know the feeling. It’s like accidentally walking into a gay bar and then having no one hit on you…it happened to a friend of mine.\"",
         fear: "Monophobia is the fear of being isolated, lonely, or alone. As a phobia, this fear isn’t necessarily a realistic one. Though you may know that you are safe physically, you may still be afraid of strangers or intruders, being unloved, having an emergency and no help, or experiencing other unexpected events without assistance.",
-        solution: "Like many other situational phobias, monophobia can be managed through psychotherapy. There are a few ways that a therapist might help you work through your fear of being alone. " +
-            "Exposure therapy. This form of therapy is based on incrementally increasing the amount of time that someone is exposed to the thing or situation that they are afraid of. Exposure therapy has been scientifically and clinically demonstrated to help people overcome certain kinds of anxieties and phobias."
+        solution: "Monophobia can be managed through psychotherapy. There are a few ways that a therapist might help you work through your fear of being alone. " +
+            "Exposure therapy. This form of therapy is based on incrementally increasing the amount of time that someone is exposed to the thing or situation that they are afraid of."
     },
     {
         image: "img/howard.png",
         joke: "\"I am a horny engineer; I never joke about math or sex.\"",
         fear: "Cringe: to feel disgust or embarrassment and often to show this feeling by a movement of your face or body.",
-        solution: "Embracing the cringe—for example, by sharing stories with friends of your biggest relationship failures or gaffes, or your worst professional moments—is a gift to your fellow humans. It sends a message that despite all of the imperfections and mortifications of the human condition, we survive. We’re flawed, and still worthy of care, love, consideration and attention. This is a more humane, and humanist, way to think about personal failure than to try to spin it, suppress it, or otherwise protect the “brand” that is a life. After all, how do young people learn that it really isn’t the “end of the world” when you embarrass yourself or get ditched?"
+        solution: "Embracing the cringe sends a message that despite all of the imperfections and mortifications of the human condition, we survive. We’re flawed, and still worthy of care, love, consideration and attention. After all, how do young people learn that it really isn’t the “end of the world” when you embarrass yourself or get ditched?"
     },
     {
         image: "img/penny.png",
         joke: "\"Sheldon: Why are you crying? " +
             "Penny: Because I’m stupid. " +
             "Sheldon: That’s no reason to cry. One cries because one is sad. For example, I cry because others are stupid, and that makes me sad.\"",
-        fear: "When we question our knowledge and skills, and feel like we don’t deserve our achievements, it’s known as imposter syndrome. Maybe you’ve started a new job and all of your coworkers seem so accomplished, unlike how you feel inside. You start to feel like a fraud and worry that your boss will realize they’ve made a huge mistake in hiring you. We feel like we don’t belong or deserve recognition for our work, even though we absolutely do. But the voice in our head keeps on insisting that we are stupid, so we start to believe it.",
-        solution: "Ways To Cope With Feeling Stupid 1. Journal: Writing down how you feel can be a great way to gain some clarity and reframe the negative thoughts you’ve been having about yourself. \n 2. Reach Out For Support: Sometimes just having someone to listen to us and validate how we’re feeling makes all the difference. \n 3. Comfort Yourself Like A Friend: You can be there for yourself! Give yourself a pat on the back, write a list of the things you like about yourself, and reflect on your accomplishments. \n 4. Give Yourself A Pep Talk: Try saying some encouraging phrases to yourself out loud: I feel stupid right now but I know this feeling will pass. Everyone makes mistakes and feels stupid sometimes. I’m gonna be okay. "
+        fear: "When we question our knowledge and skills, and feel like we don’t deserve our achievements, it’s known as imposter syndrome. We feel like we don’t belong or deserve recognition for our work, even though we do.",
+        solution: "Writing down how you feel can be a great way to gain some clarity and reframe the negative thoughts. Sometimes just having someone to listen to us and validate how we’re feeling makes all the difference."
     },
     {
         image: "img/sheldon.png",
@@ -35,7 +35,7 @@ var fears = [{
             "Leonard: No. " +
             "Sheldon: Then suffer in silence.\"",
         fear: "It’s a fact that at some point in our lives we are going to be judged for something. We are all open to being negatively affected by something that someone else says or does. It can be hurtful, making us feel vulnerable and paranoid about being judged again in the future. ",
-        solution: "Be aware of your inner voice.  It’s important to recognise the different parts of yourself and call that inner critic out for what it is. You have the power within you to control your thoughts and beliefs. Acknowledge your strengths and understand your limits.Be proud of your attributes, your achievements and your strengths. Accept your limitations and know that they don’t define you. Then the impact of people’s judgements will soon lessen until they no longer affect you at all. Notice your own judgements. By reducing the judgements you make, you’ll be able to care less about the judgements people may make about you. Accept that everyone is judged at some point. There will always be people who judge others. There will always be someone who judges you. Let them get on with it, knowing that it says more about them than it does about you. Prioritise your wellbeing. You are the most important thing in your life, so it’s essential that you take care of yourself. You could invest in your personal growth and wellbeing by taking up a new hobby, developing a skill or building a new one, living life in a healthy way by eating well and exercising, reading a book, journaling, or pampering yourself. If you feel bogged down with life and the fear of judgement is too strong, then don’t be afraid to seek help. Counselling and hypnotherapy could help you, and there’s no shame in admitting you need therapeutic assistance."
+        solution: "Be aware of your inner voice. Acknowledge your strengths and understand your limits. Be proud of your attributes, your achievements and your strengths. Accept your limitations and know that they don’t define you."
     }
 ]
 
