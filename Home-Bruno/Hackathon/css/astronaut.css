@@ -4,6 +4,32 @@ body{
     overflow: hidden;
 }
 
+#won{
+    position: fixed;
+    margin-top: 1em;
+    font-size: 7em;
+    color: white;
+    visibility: hidden;
+}
+
+#lose{
+    position: fixed;
+    margin-top: 1em;
+    font-size: 7em;
+    color: white;
+    visibility: hidden;
+}
+
+#align-won{
+   display: flex;
+   justify-content: center;
+}
+
+#align-lose{
+    display: flex;
+    justify-content: center;
+ }
+
 #lifes{
     margin-left: 80em;
 }
@@ -28,6 +54,16 @@ body{
 
 #align-img{
     text-align: center;
+}
+
+#rocketShip{
+    position: fixed;
+    visibility: hidden;
+}
+
+#rocket-align{
+    text-align: center;
+    width: 72%;
 }
 
 #textarea-joke{
@@ -67,12 +103,25 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3.5em;
+    margin-top: 5em;
 }
 
 #choice-btn1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+#btn-again{
+    position: fixed;
+    visibility: hidden;
+    margin-right: 15em;
+}
+
+#btn-home{
+    position: fixed;
+    visibility: hidden;
+    margin-left: 15em;
 }

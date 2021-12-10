@@ -6,12 +6,10 @@ body {
     overflow: hidden;
 }
   
-  .star-wars {
+.star-wars {
     display: flex;
     justify-content: center;
-    /*position: absolute;*/
     height: 900px;
-    width: 100;;
     text-align-last: center;
     color: #feda4a;
     font-family: 'Pathway Gothic One', sans-serif;
@@ -21,30 +19,30 @@ body {
     line-height: 150%;
     perspective: 400px;
     text-align: justify;
-  }
+}
   
-  .crawl {
-    
+.crawl {
+    overflow: auto;
+    padding: 0;
     width: 80%;
     overflow: scroll;
     overflow-x: hidden;
     position: relative;
     transform: rotateX(20deg);
-    margin-bottom: 100px;
     padding-bottom: 1em;
-  }
+}
 
-  ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 0; 
     background: transparent; 
 }
   
-  .crawl > .title {
+.crawl > .title {
     font-size: 100%;
     text-align: center;
-  }
+}
   
-  .crawl > .title h1 {
+.crawl > .title h1 {
     margin: 0 0 100px;
     text-transform: uppercase;
-  }
+}
