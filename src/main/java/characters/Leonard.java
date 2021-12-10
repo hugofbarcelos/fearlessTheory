@@ -19,7 +19,7 @@ public class Leonard implements Jokes{
         String nineJoke = "You Brought Your Husband To Work, You Know The Rules";
         String tenJoke = "We're Here To See Koothrappali, Not Kill Batman";
 
-    } 
+    }
 
     @Override
     public HashMap<String, String> joke(String fear) {
