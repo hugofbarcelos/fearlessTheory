@@ -5,15 +5,15 @@ var life = 3;
 var jokes = [
     {
         joke: 'Why did Mickey Mouse go to outer space?',
-        answer1:'To find Pluto',
-        answer2:'To find Jupiter',
-        answer3:'To find Uranus',
-        answer4:'To find Mars',
+        answer1: 'To find Pluto',
+        answer2: 'To find Jupiter',
+        answer3: 'To find Uranus',
+        answer4: 'To find Mars',
         correct: 'To find Pluto'
     },
     {
         joke: 'Why did the astronaut break up with her boyfriend?',
-        answer1: 'Because she doesn´t live him anymore',
+        answer1: 'Because she doesn´t love him anymore',
         answer2: 'Because she needed some time',
         answer3: 'Because she needed some space',
         answer4: 'Because she lost her interest',
@@ -84,30 +84,74 @@ var jokes = [
         correct: 'To get brighter'
     }];
 
-function moveComet(){
+function moveComet() {
     var imgObj = null;
     imgObj = document.getElementById('asteroid');
     var incrementar = 500;
 
     var sd = setInterval(function () {
         startMove();
-        incrementar = incrementar + 2;
+        incrementar = incrementar + 3;
     }, 1);
     function startMove() {
         imgObj.style.top = incrementar + 'px';
 
-        if (incrementar >= 900) {
+        if (incrementar >= 1000) {
             clearInterval(sd);
 
-            if(life == 0){
-                console.log("you lose");
-            }else{
+            if (life == 0) {
+                document.getElementById("form").style.visibility = "hidden";
+                document.getElementById("btn-again").style.visibility = "visible";
+                document.getElementById("btn-home").style.visibility = "visible";
+                document.getElementById("lose").style.visibility = "visible";
+                document.getElementById("answer1").style.visibility = "hidden";
+                document.getElementById("answer2").style.visibility = "hidden";
+                document.getElementById("choice-btn1").style.visibility = "hidden";
+                document.getElementById("lifes").style.visibility = "hidden";
+            } else {
                 document.getElementById("astronaut").style.transform = "translate(" + 0 + "px," + 0 + "px)";
-                init();
+                if (jokes.length == 0) {
+                    document.getElementById("form").style.visibility = "hidden";
+                    document.getElementById("btn-again").style.visibility = "visible";
+                    document.getElementById("btn-home").style.visibility = "visible";
+                    document.getElementById("won").style.visibility = "visible";
+                    document.getElementById("answer1").style.visibility = "hidden";
+                    document.getElementById("answer2").style.visibility = "hidden";
+                    document.getElementById("choice-btn1").style.visibility = "hidden";
+                    document.getElementById("lifes").style.visibility = "hidden";
+                } else {
+                    init();
+                }
             }
-
         }
     }
+}
+
+function moveRocket() {
+    var imgRocket = null;
+
+    imgRocket = document.getElementById('rocketShip');
+    imgRocket.style.visibility = "visible";
+
+    var incrementar = 2;
+
+    var sd = setInterval(function () {
+        startMove();
+        incrementar = incrementar + 2;
+    }, 1);
+
+    function startMove() {
+        imgRocket.style.top = incrementar + 'px';
+
+        document.getElementById("astronaut").style.transform = "translate(" + 0 + "px," + 0 + "px)";
+
+        if (incrementar >= 200) {
+            clearInterval(sd);
+
+            document.getElementById("astronaut").style.visibility = "hidden";
+        }
+    }
+
 }
 
 function answer1() {
@@ -117,23 +161,27 @@ function answer1() {
         currentJoke = undefined;
 
         document.getElementById("astronaut").style.transform = "translate(" + -100 + "px," + 0 + "px)";
-        
-        if(jokes.length == 0){
-            console.log("you win");
+
+        if (jokes.length == 0) {
+            moveComet();
+            moveRocket();
+        } else {
+            moveComet();
         }
 
     } else {
         jokes.splice(currentJoke, 1);
 
         currentJoke = undefined;
-        
+
         console.log('life' + life);
 
-        document.getElementById("life" + life).style.display='none';
+        document.getElementById("life" + life).style.display = 'none';
 
         life--;
+
+        moveComet();
     }
-    moveComet();
 }
 
 function answer2() {
@@ -144,8 +192,11 @@ function answer2() {
 
         document.getElementById("astronaut").style.transform = "translate(" + -100 + "px," + 0 + "px)";
 
-        if(jokes.length == 0){
-            console.log("you win");
+        if (jokes.length == 0) {
+            moveComet();
+            moveRocket();
+        } else {
+            moveComet();
         }
 
     } else {
@@ -155,13 +206,12 @@ function answer2() {
 
         console.log('life' + life);
 
-        document.getElementById("life" + life).style.display='none';
+        document.getElementById("life" + life).style.display = 'none';
 
         life--;
 
-        
+        moveComet();
     }
-    moveComet();
 }
 
 function answer3() {
@@ -172,10 +222,12 @@ function answer3() {
 
         document.getElementById("astronaut").style.transform = "translate(" + -100 + "px," + 0 + "px)";
 
-        if(jokes.length == 0){
-            console.log("you win");
+        if (jokes.length == 0) {
+            moveComet();
+            moveRocket();
+        } else {
+            moveComet();
         }
-        
     } else {
         jokes.splice(currentJoke, 1);
 
@@ -183,12 +235,12 @@ function answer3() {
 
         console.log('life' + life);
 
-        document.getElementById("life" + life).style.display='none';
+        document.getElementById("life" + life).style.display = 'none';
 
         life--;
 
+        moveComet();
     }
-    moveComet();
 }
 
 function answer4() {
@@ -199,11 +251,12 @@ function answer4() {
 
         document.getElementById("astronaut").style.transform = "translate(" + -100 + "px," + 0 + "px)";
 
-        if(jokes.length == 0){
-            console.log("you win");
+        if (jokes.length == 0) {
+            moveComet();
+            moveRocket();
+        } else {
+            moveComet();
         }
-
-        
     } else {
         jokes.splice(currentJoke, 1);
 
@@ -211,16 +264,17 @@ function answer4() {
 
         console.log('life' + life);
 
-        document.getElementById("life" + life).style.display='none';
+        document.getElementById("life" + life).style.display = 'none';
 
         life--;
+
+        moveComet();
     }
-    moveComet();
 }
 
 function setJoke() {
 
-    currentJoke = Math.floor(Math.random()*jokes.length);
+    currentJoke = Math.floor(Math.random() * jokes.length);
 
     var textarea = document.getElementById('joke-textbox');
     textarea.innerHTML = jokes[currentJoke].joke;
@@ -254,6 +308,7 @@ function init() {
             setJoke();
         }
     }
+
 }
 
 window.onload = init;
