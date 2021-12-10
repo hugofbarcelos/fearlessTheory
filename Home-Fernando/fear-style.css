@@ -51,28 +51,28 @@
     height: 50px;
 }
 
-#footer_buttons{
+#footer_buttons {
     display: flex;
     justify-content: space-between;
 }
 
-#msg2{
+#msg2 {
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
 
-#msg3{
+#msg3 {
     text-align: justify;
     color: indianred;
 }
 
-#msg4{
+#msg4 {
     text-align: justify;
     color: olivedrab;
 }
 
-.footer{
+.footer {
     width: 200px;
     height: 50px;
     font-size: 20px;
@@ -151,4 +151,15 @@
     .conversation .conversation-container {
         height: calc(100vh - 120px);
     }
+}
+
+#particle {
+
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
 }

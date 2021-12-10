@@ -41,6 +41,7 @@ var fears = [{
 
 $(document).ready(function () {
     $('#fear-judged-try').hide();
+    $('#main-menu').hide();
 });
 
 var random = document.querySelector('#random');
