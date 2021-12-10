@@ -4,7 +4,7 @@
     display: flex;
     justify-items: center;
     justify-content: center;
-    height: 5em;
+    height: 3em;
     background: #133783;
     color: #fff;
     position: relative;
@@ -15,12 +15,12 @@
     float: left;
     position: relative;
     top: 50%;
-    transform: translate(-15%, -30%)
+    transform: translate(-15%, -40%)
 }
 
 .name span {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #box {
@@ -34,7 +34,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #btn-section {
@@ -46,9 +46,9 @@
 
 #btn-section button {
     margin-top: 2em;
-    font-size: 30px;
-    width: 350px;
-    height: 100px;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
 }
 
 #footer_buttons{
@@ -57,7 +57,7 @@
 }
 
 #msg2{
-    font-size: 30px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
@@ -73,13 +73,13 @@
 }
 
 .footer{
-    width: 250px;
-    height: 70px;
-    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
 }
 
 .user-bar .name {
-    font-size: 20px;
+    font-size: 15px;
     text-overflow: ellipsis;
     letter-spacing: 0.5px;
     margin: 0 0 0 8px;
