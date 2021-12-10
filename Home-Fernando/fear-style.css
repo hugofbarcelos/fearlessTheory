@@ -2,28 +2,64 @@
 /* User Bar */
 
 .user-bar {
-    height: 55px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    height: 3em;
     background: #133783;
     color: #fff;
-    padding: 0 8px;
-    font-size: 24px;
     position: relative;
-    z-index: 1;
+
 }
 
 .user-bar div {
     float: left;
-    transform: translateY(-50%);
+  
     position: relative;
     top: 50%;
+    transform: translate(-15%,-30%)
+}
+
+.name span{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#fear-judged-try{
+    
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-70%, -50%);
+
+}
+
+#box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20em;
+    margin-right: 20em;
+}
+
+#rightbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 30px;
+
 }
 
 #btn-section {
-    margin-top: 1em;
+    margin-top: 2em;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
+#btn-section button{
+    font-size: 40px;
+}
+
 
 .user-bar .name {
     font-size: 20px;
