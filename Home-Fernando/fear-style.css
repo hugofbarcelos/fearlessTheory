@@ -5,7 +5,7 @@
     display: flex;
     justify-items: center;
     justify-content: center;
-    height: 3em;
+    height: 5em;
     background: #133783;
     color: #fff;
     position: relative;
@@ -14,7 +14,6 @@
 
 .user-bar div {
     float: left;
-  
     position: relative;
     top: 50%;
     transform: translate(-15%,-30%)
@@ -22,7 +21,7 @@
 
 .name span{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 40px;
 }
 
 #fear-judged-try{
@@ -31,12 +30,13 @@
   position: absolute;
   left: 50%;
   transform: translate(-70%, -50%);
+  font-size: 40px;
 
 }
 
 #box{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 20em;
     margin-right: 20em;
 }
@@ -45,8 +45,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-size: 30px;
-
+    font-size: 25px;
 }
 
 #btn-section {
@@ -86,6 +85,7 @@
     background: #fff;
     border-radius: 0px 5px 5px 5px;
     float: left;
+    margin: 10px;
 }
 
 

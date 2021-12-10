@@ -28,16 +28,16 @@
             <div id="btn-section">
                 <button type="button" class="btn btn-primary" id="beingalone" onclick="getFear(0,'beingalone');">Being Alone</button>
                 <button type="button" class="btn btn-primary" id="fear-Cringe-btn" onclick="getFear(1,'fear-Cringe-btn');">Being Cringe</button>
-                <button type="button" class="btn btn-primary" id="fear-stupid-btn" onclick="getFear(2);">Being called stupid</button>
-                <button type="button" class="btn btn-primary" id="fear-feelings-btn" onclick="getFear(3);">Expressing feelings</button>
-                <button type="button" class="btn btn-primary" id="fear-judged-btn" onclick="getFear(4);">Being judged</button>
+                <button type="button" class="btn btn-primary" id="fear-stupid-btn" onclick="getFear(2,'fear-stupid-btn');">Being called stupid</button>
+                <button type="button" class="btn btn-primary" id="fear-feelings-btn" onclick="getFear(3,'fear-feelings-btn');">Expressing feelings</button>
+                <button type="button" class="btn btn-primary" id="fear-judged-btn" onclick="getFear(4,'fear-judged-btn');">Being judged</button>
             </div>
 
             <br><br>
 
             <div id="box">
                 <div id="msg1" class="message received" style="background-color: transparent;  color: white;">
-                    <img width="200px" src="" id="random2" alt="">
+                    <img height="650em" src="" id="random2" alt="">
                 </div>
                 
                 <br>
@@ -46,20 +46,22 @@
                     <div id="msg2" class="message received" style="background-color: #0b5ed7;  color: white;">
                         <span id="random"></span>
                     </div>
-                  
+                
                     <div id="msg3" class="message received" style="background-color: #067d10;  color: white;">
                         <div id="random1"></div>
                     </div>
-                 
+        
                     <div id="msg4" class="message received" style="background-color: red ; color: white;">
                         <div id="random3"></div>
+                    </div>
+                    <br>
+                    <div>
+                        <button onclick="tryAgain();" type="button" class="btn btn-primary" id="fear-judged-try">Try new fears</button>
                     </div>
                 </div>
             </div>
 
-            <div style="display: block;">
-                <button onclick="tryAgain();" type="button" class="btn btn-primary" id="fear-judged-try">Try new fears</button>
-            </div>
+            
             <br>
         </div>
     </div>
