@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
     
     <div class="conversation">
         <div class="user-bar">
@@ -26,10 +25,11 @@
             </div>
 
         </div>
-
         <div id="parentdiv" class="conversation-container">
 
             <div id='stars1'></div>
+           
+            
 
             <div id="btn-section">
                 <button type="button" class="btn btn-primary" id="beingalone" onclick="getFear(0,'beingalone');">Being Alone</button>
@@ -39,7 +39,8 @@
                 <button type="button" class="btn btn-primary" id="fear-judged-btn" onclick="getFear(4,'fear-judged-btn');">Being judged</button>
             </div>
 
-            <br><br>            
+        
+            <br><br>
 
             <div id="box">
                 <div id="msg1" class="message received" style="background-color: transparent;  color: white;">
@@ -68,16 +69,17 @@
                         <button id="main-menu" class="btn btn-success footer"><a href="index.html"
                         style="text-decoration: none; color: white;">Main
                         Menu</a></button>
-
+                        <canvas id="particle"></canvas>
+                        
                     </div>
                 </div>
             </div>
-
             <br>
         </div>
     </div>
 
     <script src="script.js"></script>
+    <script src="blackHole.js"></script>
 
 </body>
 

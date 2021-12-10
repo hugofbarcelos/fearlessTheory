@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/astronaut.css">
+    <link rel="stylesheet" href="css/stars.css">
+    <title>Astronaut</title>
+</head>
+
+<body>
+
+    <div id='stars1'></div>
+
+    <div id="lifes">
+        <img id="life3" src="img/life.png" alt="life1">
+        <img id="life2" src="img/life.png" alt="life2">
+        <img id="life1" src="img/life.png" alt="life3">
+    </div>
+
+    <p id="asteroid-align">
+        <img id="asteroid" src="img/asteroid.png" alt="asteroid">
+    </p>
+
+
+    <p id="align-img">
+        <img id="astronaut" src="img/astronaut.png" alt="astronaut">
+    </p>
+
+
+    <div id="form">
+        <div id="textarea-joke">
+            <textarea readonly name="Text1" id="joke-textbox" class="advancedSearchTextBox" cols="40" rows="1"></textarea>
+        </div>
+    </div>
+
+    <div id="choice-btn">
+        <button id="answer1" onclick="answer1()" type="button" class="btn btn-primary"
+            style="margin-right: 5em;"></button>
+        <button id="answer2" onclick="answer2()" type="button" class="btn btn-primary"></button>
+    </div>
+    <div id="choice-btn1">
+        <button id="answer3" onclick="answer3()" type="button" class="btn btn-primary"
+            style="margin-right: 5em;"></button>
+        <button id="answer4" onclick="answer4()" type="button" class="btn btn-primary"></button>
+    </div>
+
+    <script src="js/asteroid.js"></script>
+</body>
+
+</html>
