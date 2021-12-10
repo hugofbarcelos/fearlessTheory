@@ -15,12 +15,20 @@ var fears = [{
         image: "image"
     },
     {
-        joke: "random",
-        fear: "explaining how he or her overcame it",
-        image: "image"
+        image: "img/kisspng-johnny-galecki-the-big-bang-theory-leonard-hofstad-download-cambridge-yearbook-of-european-legal-stud-5ba47f280c8df7.5340962115375071120514.png",
+        joke: "I am a horny engineer; I never joke about math or sex.",
+        fear: "Cringe: to feel disgust or embarrassment and often to show this feeling by a movement of your face or body."
     }
 
 ]
+
+
+$(document).ready(function() {
+
+    $('#fear-judged-try').hide();
+});
+
+
 
 var random = document.querySelector('#random');
 
@@ -87,18 +95,34 @@ function animateMessage(message) {
     }, 500);
 }
 
-window.onload = function() {
 
 
 
-};
 
-function getFear(id) {
+function getFear(id, btnId) {
 
-    $('#parentdiv').append('<div id="msg1" class="message received" style="background-color: #0b5ed7; display: none; color: white;">  <span id="random"></span  <span class="metadata"><span class="time"></span></span> </div')
-    $('#parentdiv').append('<div id="msg2" class="message received" style="background-color: #0b5ed7; display: none; color: white;">  <span id="random1"></span  <span class="metadata"><span class="time"></span></span> </div')
     $('#msg1').css('display', 'block');
     $('#msg2').css('display', 'block');
+    $('#random2').attr("src", fears[id].image);
     $('#random').text(fears[id].joke);
     $('#random1').text(fears[id].fear);
+    $('#fear-judged-try').show();
+    $('button').not($('#' + btnId)).hide();
+    console.log(btnId);
+    $('#fear-judged-try').show();
+
+
+}
+
+function tryAgain(id) {
+
+
+    $('button').not($(this)).show();
+    $('#fear-judged-try').hide();
+    $('#msg1').hide();
+    $('#msg2').hide();
+    //you also can use toggle Class for hidden
+    //$('button').not($(this)).toggleClass('btn-success');
+
+
 }

@@ -26,7 +26,7 @@
                                 <i class="zmdi zmdi-arrow-left"></i>
                             </div>
                             <div class="name">
-                                <span>You are afraid</span>
+                                <span>Choose a fear:</span>
                             </div>
                             <div class="actions more">
                                 <i class="zmdi zmdi-more-vert"></i>
@@ -42,29 +42,40 @@
                             <div id="parentdiv" class="conversation-container">
                                 <div id='stars1'></div>
                                 <div id="btn-section">
-                                    <button type="button" class="btn btn-primary" id="beingalone" onclick="getFear(0);">Being Alone</button>
+                                    <button type="button" class="btn btn-primary" id="beingalone" onclick="getFear(0,'beingalone');">Being Alone</button>
 
-                                    <button type="button" class="btn btn-primary" id="fear-alone-btn" onclick="getFear(1);">Being Cringe</button>
-                                    <button type="button" class="btn btn-primary" id="fear-alone-btn" onclick="getFear(2);">Being called stupid</button>
-                                    <button type="button" class="btn btn-primary" id="fear-alone-btn" onclick="getFear(3);">Expressing feelings</button>
-                                    <button type="button" class="btn btn-primary" id="fear-alone-btn" onclick="getFear(4);">Being judged</button>
+                                    <button type="button" class="btn btn-primary" id="fear-Cringe-btn" onclick="getFear(1,'fear-Cringe-btn');">Being Cringe</button>
+                                    <button type="button" class="btn btn-primary" id="fear-stupid-btn" onclick="getFear(2);">Being called stupid</button>
+                                    <button type="button" class="btn btn-primary" id="fear-feelings-btn" onclick="getFear(3);">Expressing feelings</button>
+                                    <button type="button" class="btn btn-primary" id="fear-judged-btn" onclick="getFear(4);">Being judged</button>
+                                </div>
+                                <div id="msg1" class="message received" style="background-color: #0b5ed7; display: none; color: white;">
+                                    <img src="" id="random2" alt="">
+
                                 </div>
                                 <br>
-                                <!-- <div id="msg1" class="message received" style="background-color: #0b5ed7; display: none; color: white;">
+                                <div id="msg1" class="message received" style="background-color: #0b5ed7; display: none; color: white;">
                                     <span id="random"></span>
                                     <span class="metadata"><span class="time"></span></span>
-                                </div>-->
+                                </div>
                                 <br>
+                                <div id="msg2" class="message received" style="background-color: #0b5ed7; display: none; color: white;">
+                                    <div id="random1"></div>
+                                    <div class="metadata">
+                                        <div class="time"></div>
+                                    </div>
+                                </div>
+                                <div>
 
+                                    <button onclick="tryAgain();" type="button" class="btn btn-primary" id="fear-judged-try">Try new fears</button>
+                                </div>
 
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 </body>
 

@@ -7,7 +7,6 @@
 html {
     box-sizing: border-box;
     height: 100%;
-    margin: 10px;
     padding: 0;
 }
 
@@ -15,7 +14,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: "Roboto", sans-serif;
-    margin: 10px;
     padding: 0;
     height: 100%;
 }
@@ -126,7 +124,7 @@ body {
     margin-top: 1em;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .user-bar .name {
@@ -137,7 +135,6 @@ body {
     margin: 0 0 0 8px;
     overflow: hidden;
     white-space: nowrap;
-    width: 110px;
 }
 
 .user-bar .status {
@@ -151,8 +148,8 @@ body {
 /* Conversation */
 
 .conversation {
-    height: 60em;
-    width: 60em;
+    height: 100vh;
+    width: 100vw;
     position: relative;
     /*background: #efe7dd url("https://cloud.githubusercontent.com/assets/398893/15136779/4e765036-1639-11e6-9201-67e728e86f39.jpg") repeat;*/
     background-color: #130f40;
