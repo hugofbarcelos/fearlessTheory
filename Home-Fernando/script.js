@@ -12,7 +12,7 @@ var memes = [
 var fears = [{
         joke: "If anyone’s interested, I’ll be spending this Valentine’s in the same way I spend every Valentine’s. Buying disoriented chicken from the supermarket, taking home, standing over the sink and eating out of the packet with my bare hands like an animal.",
         fear: "explaining how he or her overcame it",
-        image: "image"
+        image: "img/raj-big-bang.png"
     },
     {
         image: "img/kisspng-johnny-galecki-the-big-bang-theory-leonard-hofstad-download-cambridge-yearbook-of-european-legal-stud-5ba47f280c8df7.5340962115375071120514.png",

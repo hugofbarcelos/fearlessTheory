@@ -40,7 +40,6 @@
     height: 100vh;
     width: 100vw;
     position: relative;
-    /*background: #efe7dd url("https://cloud.githubusercontent.com/assets/398893/15136779/4e765036-1639-11e6-9201-67e728e86f39.jpg") repeat;*/
     background-color: #130f40;
     background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
     overflow: auto;
