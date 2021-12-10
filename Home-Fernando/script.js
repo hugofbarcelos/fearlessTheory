@@ -68,6 +68,7 @@ function tryAgain(id) {
 
     $('button').not($(this)).show();
     $('#fear-judged-try').hide();
+    $('#main-menu').hide();
     $('#msg1').hide();
     $('#msg2').hide();
     $('#msg3').hide();
