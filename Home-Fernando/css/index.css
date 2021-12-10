@@ -1,0 +1,10 @@
+body{
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+    overflow: hidden
+}
+
+#app-title{
+    font-size: 5vw;
+    margin-top: 4vw;
+}

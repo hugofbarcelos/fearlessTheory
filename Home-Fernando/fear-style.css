@@ -1,11 +1,10 @@
-
 /* User Bar */
 
 .user-bar {
     display: flex;
     justify-items: center;
     justify-content: center;
-    height: 3em;
+    height: 5em;
     background: #133783;
     color: #fff;
     position: relative;
@@ -14,34 +13,34 @@
 
 .user-bar div {
     float: left;
-  
+
     position: relative;
     top: 50%;
-    transform: translate(-15%,-30%)
+    transform: translate(-15%, -30%)
 }
 
-.name span{
+.name span {
     text-align: center;
     font-size: 1.5em;
 }
 
-#fear-judged-try{
-    
-  margin: 0;
-  position: absolute;
-  left: 50%;
-  transform: translate(-70%, -50%);
+#fear-judged-try {
+
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-70%, -50%);
 
 }
 
-#box{
+#box {
     display: flex;
     justify-content: space-between;
     margin-left: 20em;
     margin-right: 20em;
 }
 
-#rightbox{
+#rightbox {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -50,14 +49,16 @@
 }
 
 #btn-section {
-    margin-top: 2em;
+
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-#btn-section button{
+#btn-section button {
     font-size: 40px;
+    width: 200px;
+    height: 200px;
 }
 
 
@@ -85,6 +86,7 @@
 .message.received {
     background: #fff;
     border-radius: 0px 5px 5px 5px;
+    margin: 10px;
     float: left;
 }
 
@@ -101,15 +103,19 @@
         height: 100%;
         width: 100%;
     }
+
     .marvel-device>.screen .chat {
         visibility: visible;
     }
+
     .marvel-device {
         visibility: hidden;
     }
+
     .marvel-device .status-bar {
         display: none;
     }
+
     .screen-container {
         position: absolute;
         top: 0;
@@ -117,9 +123,11 @@
         right: 0;
         bottom: 0;
     }
+
     .conversation {
         height: calc(100vh - 55px);
     }
+
     .conversation .conversation-container {
         height: calc(100vh - 120px);
     }

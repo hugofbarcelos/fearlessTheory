@@ -38,7 +38,7 @@ var fears = [{
     }
 ]
 
-$(document).ready(function() {
+$(document).ready(function () {
     $('#fear-judged-try').hide();
 });
 
@@ -58,6 +58,8 @@ function getFear(id, btnId) {
     $('button').not($('#' + btnId)).hide();
     console.log(btnId);
     $('#fear-judged-try').show();
+    $('#main-menu').show();
+
 }
 
 function tryAgain(id) {
