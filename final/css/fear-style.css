@@ -1,0 +1,165 @@
+/* User Bar */
+
+.user-bar {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    height: 3em;
+    background: #133783;
+    color: #fff;
+    position: relative;
+
+}
+
+.user-bar div {
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-40%)
+}
+
+.name span {
+    text-align: center;
+    font-size: 30px;
+}
+
+#box {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20em;
+    margin-right: 20em;
+}
+
+#rightbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#btn-section {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#btn-section button {
+    margin-top: 2em;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+}
+
+#footer_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#msg2 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+#msg3 {
+    text-align: justify;
+    color: indianred;
+}
+
+#msg4 {
+    text-align: justify;
+    color: olivedrab;
+}
+
+.footer {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.user-bar .name {
+    font-size: 15px;
+    text-overflow: ellipsis;
+    letter-spacing: 0.5px;
+    margin: 0 0 0 8px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Conversation */
+
+.conversation {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+    overflow: auto;
+    z-index: 0;
+}
+
+.message.received {
+    background: transparent;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 0px 5px 5px 5px;
+    margin: 10px;
+    float: left;
+    margin: 10px;
+}
+
+
+
+/* Small Screens */
+
+@media (max-width: 768px) {
+    .marvel-device.nexus5 {
+        border-radius: 0;
+        flex: none;
+        padding: 0;
+        max-width: none;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+
+    .marvel-device>.screen .chat {
+        visibility: visible;
+    }
+
+    .marvel-device {
+        visibility: hidden;
+    }
+
+    .marvel-device .status-bar {
+        display: none;
+    }
+
+    .screen-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .conversation {
+        height: calc(100vh - 55px);
+    }
+
+    .conversation .conversation-container {
+        height: calc(100vh - 120px);
+    }
+}
+
+#particle {
+
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
