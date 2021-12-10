@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class Leonard implements Jokes{
 
 
- /*   @Override
+    @Override
     public void joke() {
 
         String firstJoke = "You Might Be From Texas, But I'm From New Jersey";
@@ -19,7 +19,7 @@ public class Leonard implements Jokes{
         String nineJoke = "You Brought Your Husband To Work, You Know The Rules";
         String tenJoke = "We're Here To See Koothrappali, Not Kill Batman";
 
-    } */
+    } 
 
     @Override
     public HashMap<String, String> joke(String fear) {
